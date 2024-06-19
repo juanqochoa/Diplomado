@@ -6,8 +6,8 @@ Escribir un programa que solicite dos números y luego imprima:
     4. El cubo de la suma de los dos números
     5. El cociente de la división del primer número por el segundo
 """
-num1 = float(input("Ingrese el primer número por favor"))
-num2 = float(input("Ingrese el segundo número por favor"))
+num1 = float(input("Ingrese el primer número por favor: "))
+num2 = float(input("Ingrese el segundo número por favor: "))
 print("Suma:", num1+num2)
 print("Resta:", num1-num2)
 print("Producto:", num1*num2)
