@@ -11,6 +11,9 @@ Paso 4: Verificar si el primer número es mayor que el segundo y el segundo es m
 Paso 5: Mostrar los resultados.
     Nota: Usa la función print() para mostrar los resultados.
 """
+import os
+os.system('cls' if os.name == 'nt' else 'clear')
+# Este código de arriba es para que se limpie la terminal cada vez que se corra
 
 num1 = float(input("Introduce el primer número: "))
 num2 = float(input("Introduce el segundo número: "))
