@@ -1,4 +1,4 @@
-N = float(input("Introduzca un número por favor: "))
+N = int(input("Introduzca un número por favor: "))
 if (N % 2 == 0):
     print("El número es par")
 else:
